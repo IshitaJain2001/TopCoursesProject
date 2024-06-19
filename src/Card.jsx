@@ -3,7 +3,7 @@
  import { toast } from 'react-toastify'
  export default function Card({course}) {
 
-console.log(course)
+
 const info= course.description.substring(0,200)
 const [liked,setLiked] = useState(false)
 function like() {

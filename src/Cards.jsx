@@ -1,9 +1,7 @@
  import React from 'react'
  import Card from './Card'
  export default function Cards({courses,courseset}) {
-// console.log(courses)
-console.log(courses.data[courseset])
- console.log(courses.data[courseset])
+
 
   function getData(){
     let allcourses=[]
@@ -14,7 +12,7 @@ console.log(courses.data[courseset])
   allcourses.push(course)
         })
       })
-      // console.log(allcourses)
+
       
     }
 
